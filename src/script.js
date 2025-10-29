@@ -263,9 +263,8 @@ debugObject.reset = () => {
 
         // Remove Mesh
         scene.remove(object.mesh)
-
-        objectsToUpdate.splice(0, objectsToUpdate.length)
     }
+    objectsToUpdate.splice(0, objectsToUpdate.length)
 }
 gui.add(debugObject, 'reset')
 
